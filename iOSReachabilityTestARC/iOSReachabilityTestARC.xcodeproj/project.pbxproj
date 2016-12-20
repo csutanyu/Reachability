@@ -17,6 +17,7 @@
 		EAEB2092147A7ED2009545B6 /* TMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEB2090147A7ED2009545B6 /* TMViewController.xib */; };
 		EAEB209A147A7EE6009545B6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEB2099147A7EE6009545B6 /* Reachability.m */; };
 		EAEB209C147A7F00009545B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEB209B147A7F00009545B6 /* SystemConfiguration.framework */; };
+		EC3D952F1E095A4600DD89AE /* Reachability+NetworkType.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D952E1E095A4600DD89AE /* Reachability+NetworkType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		EAEB2098147A7EE6009545B6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../Reachability.h; sourceTree = "<group>"; };
 		EAEB2099147A7EE6009545B6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../Reachability.m; sourceTree = "<group>"; };
 		EAEB209B147A7F00009545B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EC3D952D1E095A4600DD89AE /* Reachability+NetworkType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reachability+NetworkType.h"; sourceTree = "<group>"; };
+		EC3D952E1E095A4600DD89AE /* Reachability+NetworkType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reachability+NetworkType.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 			children = (
 				EAEB2098147A7EE6009545B6 /* Reachability.h */,
 				EAEB2099147A7EE6009545B6 /* Reachability.m */,
+				EC3D952D1E095A4600DD89AE /* Reachability+NetworkType.h */,
+				EC3D952E1E095A4600DD89AE /* Reachability+NetworkType.m */,
 				EAEB208A147A7ED2009545B6 /* TMAppDelegate.h */,
 				EAEB208B147A7ED2009545B6 /* TMAppDelegate.m */,
 				EAEB208D147A7ED2009545B6 /* TMViewController.h */,
@@ -169,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3D952F1E095A4600DD89AE /* Reachability+NetworkType.m in Sources */,
 				EAEB2088147A7ED2009545B6 /* main.m in Sources */,
 				EAEB208C147A7ED2009545B6 /* TMAppDelegate.m in Sources */,
 				EAEB208F147A7ED2009545B6 /* TMViewController.m in Sources */,
